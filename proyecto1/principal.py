@@ -3,7 +3,7 @@ import mysql.connector
 try:
     conexion1=mysql.connector.connect(host="localhost", user="root", passwd="")
     cursor1=conexion1.cursor()
-    cursor1.execute("show databasesqqqqqqqq")
+    cursor1.execute("show databases")
     for base in cursor1:
         print(base)
 except mysql.connector.errors.ProgrammingError:

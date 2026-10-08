@@ -1,7 +1,7 @@
 def cargar():
     lista=[]
     for x in range(5):
-        valor=int(input("Ingrese valor:"))
+        valor=int(input("Ingrese numero:"))
         lista.append(valor)
     return lista
 
