@@ -1,3 +1,5 @@
+# Codigo en desarrollo
+
 import mysql.connector
 
 try:
