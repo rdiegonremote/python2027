@@ -1,4 +1,4 @@
-# Codigo en desarrollo
+# Codigo definitivo
 
 import mysql.connector
 
